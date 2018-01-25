@@ -13,12 +13,17 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <div>
-        <h1>Los Angeles SB 827 Map</h1>
-      <div>
-      <div class='map-overlay' id='features'><h2>US population density</h2><div id='pd'><p>Hover over a state!</p></div></div>
-      <div id='map'></div>
-      <script>
+    <div id='map'></div>
+    <div class='map-overlay' id='features'>
+        <h2>Los Angeles SB 827 Effect</h2>
+        <div id='pd'>
+          <p>Parking Minimums Removed</p>
+          <p>Height increased to 55 or 85 feet if within 1/4 of a Rail or High Quality Transit Stop</p>
+          <p>Residental Density Caps Removed</p>
+        </div>
+    </div>
+    <div class='map-overlay' id='legend'></div>
+    <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiaHVudGVyb3dlbnMiLCJhIjoiYzUyU3RocyJ9._HJmvshwfMIkjulphHfS4w';
       var map = new mapboxgl.Map({
         container: 'map',
@@ -34,7 +39,7 @@
         });
         map.addSource("height", {
           "type": "geojson",
-          "data": "./height.geojson"
+          "data": "./outputs/height.geojson"
         });
         map.addSource("boundary", {
           "type": "geojson",
@@ -71,8 +76,7 @@
           }
         });
       });
-
-      </script>
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
