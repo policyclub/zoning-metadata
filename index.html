@@ -18,29 +18,57 @@
   <body>
     <h1>Hello, world!</h1>
       <div id='map'></div>
+      <div class='map-overlay' id='features'><h2>US population density</h2><div id='pd'><p>Hover over a state!</p></div></div>
       <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiaHVudGVyb3dlbnMiLCJhIjoiYzUyU3RocyJ9._HJmvshwfMIkjulphHfS4w';
       var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v10',
+        style: 'mapbox://styles/mapbox/dark-v9',
         center: [-118.2437, 34.052],
         zoom: 11
       });
       
       map.on('load', function() {
-        map.addSource("la", {
+        map.addSource("parking", {
           "type": "geojson",
-          "data": "./la.geojson"
-        }); 
+          "data": "./parking_changes.geojson"
+        });
+        map.addSource("height", {
+          "type": "geojson",
+          "data": "./height.geojson"
+        });
+        map.addSource("boundary", {
+          "type": "geojson",
+          "data": "./los-angeles/los-angeles/city_boundary.geojson"
+        });
         map.addLayer({
-          id: 'la',
-          type: 'fill',
-          source: 'la',
+          id: 'boundary',
+          type: 'line',
+          source: 'boundary',
+          layout: {
+            visibility: 'visible'
+          },
+        });
+        map.addLayer({
+          id: 'parking',
+          type: 'fill', 
+          source: 'parking',
           layout: {
             visibility: 'visible'
           },
           paint: {
             'fill-color': 'rgba(61,153,80,0.55)'
+          }
+        });
+        map.addLayer({
+          id: 'height',
+          type: 'fill', 
+          source: 'height',
+          layout: {
+            visibility: 'visible'
+          },
+          paint: {
+            'fill-color': 'rgba(30,144,255,0.55)'
           }
         });
       });
