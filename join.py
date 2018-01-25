@@ -23,7 +23,14 @@ print("num of qualified minus non res is ", len(qual_prop))
 hqtas = gpd.read_file('./transit-service/SCAG-hqta.geojson')
 aff_prop = gpd.sjoin(merged, hqtas, op='intersects', how='inner')
 
+la_metro_rail = gpd.read_file('./transit-service/la_metro_rail_stops.geojson')
+la_metro_rail['geometry'] = la_metro_rail.geometry.buffer(402.3360)
+
 height_changes = aff_prop[aff_prop['sb_827_height_quarter_mile'] == True]
+del(height_changes['index_right'])
+del(height_changes['index_left'])
+height_changes_mtro = gpd.sjoin(gpd.GeoDataFrame(height_changes), 
+                                la_metro_rail, op='intersects', how='inner')
 parking_changes = aff_prop[aff_prop['sb_827_parking'] == True]
 res_density_increate = aff_prop[aff_prop['sb_827_res_density'] == True]
 
