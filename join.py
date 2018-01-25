@@ -24,8 +24,9 @@ hqtas = gpd.read_file('./transit-service/SCAG-hqta.geojson')
 aff_prop = gpd.sjoin(merged, hqtas, op='intersects', how='inner')
 
 height_changes = aff_prop[aff_prop['sb_827_height_quarter_mile'] == True]
+parking_changes = aff_prop[aff_prop['sb_827_parking'] == True]
+res_density_increate = aff_prop[aff_prop['sb_827_res_density'] == True]
 
-density_or_parking_changes = aff_prop[aff_prop['sb_827_parking'] == True]
-
-height_changes.to_file('./height.geojson', driver='GeoJSON')
-density_or_parking_changes.to_file('./parking_changes.geojson', driver='GeoJSON')
+height_changes.to_file('./outputs/height.geojson', driver='GeoJSON')
+parking_changes.to_file('./outputs/parking_changes.geojson', driver='GeoJSON')
+res_density_increate.to_file('./outputs/res_density.geojson', driver='GeoJSON')
