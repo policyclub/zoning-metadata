@@ -23,21 +23,15 @@ print("num of qualified zones is ", len(qual_prop))
 qual_prop = qual_prop[qual_prop['sb_827_non_res'] == False]
 
 print("num of qualified minus non res is ", len(qual_prop))
-hqtas = gpd.read_file('./transit-service/low_rise.geojson')
+hqtas = gpd.read_file('./transit-service/data/affected.geojson')
 
 print("loading areas")
-quarter_mile_area = gpd.read_file('./transit-service/high_rise.geojson')
-
-qual_prop.geometry
+quarter_mile_area = gpd.read_file('./transit-service/data/high_rise_affected.geojson')
 
 print("merging data")
-qual_prop['half_mile_true'] = qual_prop.geometry.centroid.intersects(hqtas.geometry[0])
-qual_prop['quarter_mile_true'] = qual_prop.geometry.centroid.intersects(quarter_mile_area.geometry[0])
 
-
-print("assinging values" )
-aff_prop = qual_prop[qual_prop['half_mile_true'] == True]
-aff_prop_quarter = qual_prop[qual_prop['quarter_mile_true'] == True]
+aff_prop = gpd.sjoin(qual_prop, hqtas, op='intersects', how='inner')
+aff_prop_quarter = gpd.sjoin(qual_prop, quarter_mile_area, op='intersects', how='inner')
 
 
 print("making difference dataframes")
