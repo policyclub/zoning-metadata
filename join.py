@@ -30,8 +30,24 @@ quarter_mile_area = gpd.read_file('./transit-service/data/high_rise_affected.geo
 
 print("merging data")
 
-aff_prop = gpd.sjoin(qual_prop, hqtas, op='intersects', how='inner')
-aff_prop_quarter = gpd.sjoin(qual_prop, quarter_mile_area, op='intersects', how='inner')
+aff_prop_list = {}
+aff_prop_quarter_list = {}
+
+hqta_geom = hqtas.geometry[0]
+hqta_small_geom = quarter_mile_area.geometry[0]
+
+import tqdm
+for index, row in tqdm.tqdm(qual_prop.iterrows()):
+    if row['geometry'].intersects(hqta_geom):
+        aff_prop_list[index] = row
+    if row['geometry'].intersects(hqta_small_geom):
+        aff_prop_quarter_list[index] = row
+    
+    
+aff_prop = gpd.GeoDataFrame(aff_prop_list)
+aff_prop_quarter = gpd.GeoDataFrame(aff_prop_quarter_list)
+aff_prop = aff_prop.transpose()
+aff_prop_quarter = aff_prop_quarter.transpose()
 
 
 print("making difference dataframes")
