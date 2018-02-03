@@ -1,0 +1,51 @@
+zonetype,zone,use,subuse,stories,feet,front,side,rear,per_lot,per_dwelling_unit,min_lot_width,parking_req,sb_827_parking,sb_827_FAR,sb_827_res_density,sb_827_height_quarter_mile,sb_827_height_half_mile,sb_827_non_res
+Single-Unit Residential,R1,Single-Unit Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Low Density Residential,R2,Low Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Medium Density Residential,R3,Medium Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+High Density Residential,R4,High Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Residential Mobile Home Park,RMH,Residential Mobile Home Park,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ocean Park Single-Unit Residential,OP1,Ocean Park Single-Unit Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Ocean Park Duplex,OPD,Ocean Park Duplex,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Ocean Park Low Density Residential,OP2,Ocean Park Low Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Ocean Park Medium Density Residential,OP3,Ocean Park Medium Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Ocean Park High Density Residential,OP4,Ocean Park High Density Residential,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Mixed-Use Boulevard Low,MUBL,Mixed-Use Boulevard Low,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Mixed-Use Boulevard,MUB,Mixed-Use Boulevard,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+General Commercial,GC,General Commercial,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Neighborhood Commercial,NC,Neighborhood Commercial,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Healthcare Mixed-Use,HMU,Healthcare Mixed-Use,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Industrial Conservation,IC,Industrial Conservation,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Office Campus,OC,Office Campus,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Civic Center,CC,Civic Center,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Institutional/Public Lands,PL,Institutional/Public Lands,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Parks and Open Space,OS,Parks and Open Space,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bergamot Transit Village,BTV,Bergamot Transit Village,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Mixed Use Creative,MUC,Mixed Use Creative,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Conservation-Art Center,CAC,Conservation-Art Center,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Conservation Creative Sector,CCS,Conservation Creative Sector,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Downtown Commercial,C3,Downtown Commercial,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Lincoln Transition,LT,Lincoln Transition,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Neighorhood Village,NV,Neighorhood Village,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Bayside Conservation,BC,Bayside Conservation,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Transit Adjacent,TA,Transit Adjacent,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Ocean Transition,OT,Ocean Transition,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Wilshire Transition,WT,Wilshire Transition,,,,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+
+
+
+
+
+
+
+
+
+Overlays,,
+
+Activity Center,AC,Activity Center
+Neighborhood Conservation,NC,Neighborhood Conservation
+Off-Street Parking,A,Off-Street Parking
+Beach,B,Beach
+Pedestrian Priority Overlay,PPO,Pedestrian Priority Overlay
+Retail Priority Overlay,RPO,Retail Priority Overlay,,,,,,,,,,,
+
+Oceanfront,OF,Oceanfront,,,,,,,,,,,NA
