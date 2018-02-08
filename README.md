@@ -1,5 +1,5 @@
 # Estimating the impacts of CA SB 827
-In January 2018 Califonria State Senator Wiener introduced [Senate Bill 827: Planning and zoning: transit-rich housing bonus](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB827) or for short SB 827. This bill has the potential to be the most impact housing bill the state has passed since 1978's and as such there's been a lot of public response to the bill. This repo was started by the [Policy Club](http://policyclub.io) to estimate the specific impacts of SB 827 on the city Los Angeles. This repo is set up such that by contributing a few files one could extend this analysis to estimate the impacts of SB 827 on other California cities.
+In January 2018 California State Senator Wiener introduced [Senate Bill 827 Planning and zoning: transit-rich housing bonus](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB827) or for short SB 827. This bill has the potential to be the most impactful housing bill the state has passed since 1978's Prop 13 and as such there's been a lot of public response to the bill. This repo was started by the [Policy Club](http://policyclub.io) to estimate the specific impacts of SB 827 on the City of Los Angeles. This repo is set up such that by contributing a few files one could extend this analysis to estimate the impacts of SB 827 on other California cities.
 
 ## Data for the Map 
 
@@ -10,7 +10,7 @@ In order to create the map for a city, we need 3 things: (1) a Zoning file as a 
 We used the City of LA's zoning file, downloaded as `.geojson` from the [LA City Geohub](geohub.lacity.org). The zoning file must contain an attribute called `zone`, which will be used to join it with the zoning attributes file.
 
 ### (2) Zoning Attributes Table (CSV)
-For each unique `zone` type in the zoning spatial file, you'll need to describe in an attributes table. In the zoning-metadata.csv file, you'll need to provide True/False data for six new fields for SB 827. 
+For each unique `zone` type in the zoning spatial file, you'll need to describe it in an attributes table. In the zoning-metadata.csv file, you'll need to provide True/False data for six new fields for SB 827. 
 
 + `sb_827_parking`: _more info needed here_
 + `sb_827_FAR`:
@@ -31,7 +31,7 @@ Example table (only first three, and last six columns shown)
 For a full example, check out the file in `los-angeles/los-angeles/zoning-metadata.csv`
 
 ### (3) Transit Data (GeoJSON)
-We use [Southern California Association of Governments (SCAG)'s](http://www.scag.ca.gov/) high quality transit definition from 2012 for Southern California and will be updating it as the bill changes. We'll take care of locating this if you're in SCAG's area. 
+We use [Southern California Association of Governments (SCAG)'s](http://www.scag.ca.gov/) high quality transit definition from 2012 for Southern California and will be updating it as the bill changes. We'll take care of locating transit data if you're in SCAG's area. 
 
 ## Contributing 
 
