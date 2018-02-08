@@ -21,12 +21,12 @@ For each unique `zone` type in the zoning spatial file, you'll need to describe 
 
 Example table (only first three, and last six columns shown)
 
-zone | zone type | use | sb_827_parking | sb_827_FAR | sb_827_res_density | sb_827_height_quarter_mile | sb_827_height_half_mile | sb_827_non_res
-----
-Agricultural | A1 | Agricultural |
-One-Family Residential | R1 | One-Family Dwelling
-Multiple Residential | R2 | Two Family Dwellings
-Manufacturing | M2 | Light Industrial
+| zone | zone type | use | sb_827_parking | sb_827_FAR | sb_827_res_density | sb_827_height_quarter_mile | sb_827_height_half_mile | sb_827_non_res |
+|-|-|-|-|-|-|-|-|-|
+| Agricultural | A1 | Agricultural |||||||
+|One-Family Residential | R1 | One-Family Dwelling|
+|Multiple Residential | R2 | Two Family Dwellings|
+|Manufacturing | M2 | Light Industrial|
 
 For a full example, check out the file in `los-angeles/los-angeles/zoning-metadata.csv`
 
