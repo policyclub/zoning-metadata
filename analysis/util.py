@@ -21,7 +21,10 @@ def get_data(tables=None, geoids=None, release='latest'):
 
 def get_dataframe(tables=None, geoids=None, release='latest',geo_names=False,col_names=False,include_moe=False):
     response = get_data(tables=tables,geoids=geoids,release=release)
-    frame = pd.DataFrame.from_dict(prep_for_pandas(response['data'],include_moe),orient='index')
+    try:
+        frame = pd.DataFrame.from_dict(prep_for_pandas(response['data'],include_moe),orient='index')
+    except KeyError:
+        return None
     frame = frame[sorted(frame.columns.values)] # data not returned in order
     if geo_names:
         geo = pd.DataFrame.from_dict(response['geography'],orient='index')
