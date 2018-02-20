@@ -31,7 +31,7 @@ Example table (only first three, and last six columns shown)
 For a full example, check out the file in `los-angeles/los-angeles/zoning-metadata.csv`
 
 ### (3) Transit Data (GeoJSON)
-We use [Southern California Association of Governments (SCAG)'s](http://www.scag.ca.gov/) high quality transit definition from 2012 for Southern California and will be updating it as the bill changes. We'll take care of locating transit data if you're in SCAG's area. 
+We use Transit Data that we have gotten data from their GTFS feeds and applied a filter for meeting SB 827 standards.  
 
 ## Contributing 
 
