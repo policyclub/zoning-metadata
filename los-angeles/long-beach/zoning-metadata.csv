@@ -1,12 +1,12 @@
-code,land_use_name,Note,Units Per Lot,"Lot Area Per Unit (Sq. Ft.) 
-","Minimum Lot Area (Sq. Ft.) (a, c) 
+code,land_use_name,Note,Units Per Lot,"Lot Area Per Unit (Sq. Ft.) 
+","Minimum Lot Area (Sq. Ft.) (a, c) 
 ","Minimum Lot Width (Ft.)(a, c)","Minimum Yard SetbacksFront (Ft.)(j, l)  
 ","Minimum Yard SetbacksSide (Ft.)(j, l)  
 ","Minimum Yard SetbacksRear (k) (Ft.)(j, l)  
 ","Maximum Height(d, h)
-","Maximum Lot Coverage (% of Lot)
-","Minimum Usable Open Space Per Unit
-","Floor Area Ratio
+","Maximum Lot Coverage (% of Lot)
+","Minimum Usable Open Space Per Unit
+","Floor Area Ratio
 ",parking_req,sb_827_parking,sb_827_FAR,sb_827_res_density,sb_827_height_quarter_mile,sb_827_height_half_mile,sb_827_non_res
 R-1-T,"Single-family Residential, townhomes",,1,3000,3000,25(g),10,5,8,25 ft. 2 St.,N/A,6%(o),1.2,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 R-1-N,"Single-family Residential, standard lot",,1,6000,6000,50,20,4(b),1st St. 10 / 2nd St. 30,25 ft. 2 St.,0.5,16%(o),0.6,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
@@ -19,18 +19,18 @@ R-2-L,"Two-family Residential, large lot",,2,4000,8000,50,15,4,10,35 ft. 2 St.,0
 R-3-S,"Low-density Multi-family Residential, small lot",,3,2100,6300,50,15,10%(q),20,25 ft. 2 St.,N/A,250(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 R-3-4,Low-density Multi-family Residential,,4,1700,4500,50,15,10%(q),20,25 ft. 2 St.,N/A,200(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 R-3-T,"Multi-family Residential, Townhouse",,N/A,See Table 31-2B,3000,25(g),15,10%(q),20,28 ft.(f) 2 St.,N/A,250(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-R-4-H,"Dense Multiple Residential, high-rise",,N/A,See Table 31-2B,18000,120,10(m),"10% (q)(r)
+R-4-H,"Dense Multiple Residential, high-rise",,N/A,See Table 31-2B,18000,120,10(m),"10% (q)(r)
 ",20(r),See Table 31-3A,0.5,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
-R-4-N,Medium-density Multiple Residential,,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+R-4-N,Medium-density Multiple Residential,,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
 ",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 R-4-R,Moderate-density Multiple Residential,,N/A,See Table 31-2B,18000,120,15,10%(q),20,28 ft. 2 St.(f),N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 RM,"Mobile homes, modular and manufactured residential",,N/A,2400,18000,120,10,4,10,30 ft. 2 St.,0.65,200(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-R-4-U,"Dense Multiple Residential, urban",,N/A,See Table 31-2B,22500,180,10,"10% (q)(r)
+R-4-U,"Dense Multiple Residential, urban",,N/A,See Table 31-2B,22500,180,10,"10% (q)(r)
 ",20(r),65 ft.(f) 5 St.,N/A,150(p),3,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
-CO,Office Commercial,"R-3-T, R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+CO,Office Commercial,"R-3-T, R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
 ",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 CH,Highway Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-CT,Tourist and Entertainment Commercial,"R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+CT,Tourist and Entertainment Commercial,"R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
 ",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 CS,Commercial Storage,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 CNP,Neighborhood Pedestrian-Oriented Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -39,7 +39,7 @@ CNR,Neighborhood Commercial and Residential,Same as R-3-T,N/A,See Table 31-2B,30
 CCA,Community Commercial Automobile-Oriented,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 CCP,Community Commercial Pedestrian-Oriented,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 CCR,Community R-4-R Commercial,Same as R-4-R,N/A,See Table 31-2B,18000,120,15,10%(q),20,28 ft. 2 St.(f),N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
-CCN,Community R-4-N Commercial,Same as R-4-N,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+CCN,Community R-4-N Commercial,Same as R-4-N,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
 ",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
 CHW,Regional Highway Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 IL,Light Industrial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
