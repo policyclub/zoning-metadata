@@ -12,12 +12,12 @@ We used the City of LA's zoning file, downloaded as `.geojson` from the [LA City
 ### (2) Zoning Attributes Table (CSV)
 For each unique `zone` type in the zoning spatial file, you'll need to describe it in an attributes table. In the zoning-metadata.csv file, you'll need to provide True/False data for six new fields for SB 827. 
 
-+ `sb_827_parking`: _more info needed here_
-+ `sb_827_FAR`:
-+ `sb_827_res_density`:
-+ `sb_827_height_quarter_mile`:
-+ `sb_827_height_half_mile`:
-+ `sb_827_non_res`: True if the zone is a non-residential type (ie, Industrial, Park, Government Center).
++ `sb_827_parking`: True if parking requirements are wavied 
++ `sb_827_FAR`: True if the FAR requirements are changed. 
++ `sb_827_res_density`: True if there are requirements on minimum residental density that are removed. 
++ `sb_827_height_quarter_mile`: True if the height limit is increased if within 1/4 quarter mile of a trasit stop.  
++ `sb_827_height_half_mile`: Same as above, but for the 1/2 mile heights, rather than the quarter mile heights. 
++ `sb_827_non_res`: True if the zone is a non-residential type (ie, Industrial, Park, Government Center). Additionaly 
 
 Example table (only first three, and last six columns shown)
 
