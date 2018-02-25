@@ -1,0 +1,87 @@
+code,land_use_name,Note,Units Per Lot,"Lot Area Per Unit (Sq. Ft.) 
+","Minimum Lot Area (Sq. Ft.) (a, c) 
+","Minimum Lot Width (Ft.)(a, c)","Minimum Yard SetbacksFront (Ft.)(j, l)  
+","Minimum Yard SetbacksSide (Ft.)(j, l)  
+","Minimum Yard SetbacksRear (k) (Ft.)(j, l)  
+","Maximum Height(d, h)
+","Maximum Lot Coverage (% of Lot)
+","Minimum Usable Open Space Per Unit
+","Floor Area Ratio
+",parking_req,sb_827_parking,sb_827_FAR,sb_827_res_density,sb_827_height_quarter_mile,sb_827_height_half_mile,sb_827_non_res
+R-1-T,"Single-family Residential, townhomes",,1,3000,3000,25(g),10,5,8,25 ft. 2 St.,N/A,6%(o),1.2,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-1-N,"Single-family Residential, standard lot",,1,6000,6000,50,20,4(b),1st St. 10 / 2nd St. 30,25 ft. 2 St.,0.5,16%(o),0.6,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-1-L,"Single-family Residential, large lot",,1,12000,"12,000(s)",60,25,6,30,25 ft. 2 St.,0.4,23%(o),0.6,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-2-S,"Two-family Residential, small lot",,2,1200,4800,40,15(i),3,10,24 ft./28 ft. (e) 2 St.,N/A,2%(o),1.3,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-2-I,"Two-family Residential, intensified development",,2,1000,4800,40,3(i),3,8,32 ft./35 ft. (e) 3 St.,N/A,2%(o),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-2-N,"Two-family Residential, standard lot",,2,3000,6000,50,15,4(b),20,25 ft. 2 St.,0.6,6%(o),0.6,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-2-A,"Two-family Residential, accessory second unit",,2,3000,6000,50,15,4(b),20,25 ft. 2 St.,0.6,6%(o),0.6,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-2-L,"Two-family Residential, large lot",,2,4000,8000,50,15,4,10,35 ft. 2 St.,0.4,8%(o),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-3-S,"Low-density Multi-family Residential, small lot",,3,2100,6300,50,15,10%(q),20,25 ft. 2 St.,N/A,250(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-3-4,Low-density Multi-family Residential,,4,1700,4500,50,15,10%(q),20,25 ft. 2 St.,N/A,200(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-3-T,"Multi-family Residential, Townhouse",,N/A,See Table 31-2B,3000,25(g),15,10%(q),20,28 ft.(f) 2 St.,N/A,250(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-4-H,"Dense Multiple Residential, high-rise",,N/A,See Table 31-2B,18000,120,10(m),"10% (q)(r)
+",20(r),See Table 31-3A,0.5,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+R-4-N,Medium-density Multiple Residential,,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-4-R,Moderate-density Multiple Residential,,N/A,See Table 31-2B,18000,120,15,10%(q),20,28 ft. 2 St.(f),N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+RM,"Mobile homes, modular and manufactured residential",,N/A,2400,18000,120,10,4,10,30 ft. 2 St.,0.65,200(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+R-4-U,"Dense Multiple Residential, urban",,N/A,See Table 31-2B,22500,180,10,"10% (q)(r)
+",20(r),65 ft.(f) 5 St.,N/A,150(p),3,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
+CO,Office Commercial,"R-3-T, R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+CH,Highway Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CT,Tourist and Entertainment Commercial,"R-4-N, R-4-R acceptable (see Table 32-1A)",N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+CS,Commercial Storage,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CNP,Neighborhood Pedestrian-Oriented Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CNA,Neighborhood Commercial Automobile-Oriented,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CNR,Neighborhood Commercial and Residential,Same as R-3-T,N/A,See Table 31-2B,3000,25(g),15,10%(q),20,28 ft.(f) 2 St.,N/A,250(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+CCA,Community Commercial Automobile-Oriented,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CCP,Community Commercial Pedestrian-Oriented,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+CCR,Community R-4-R Commercial,Same as R-4-R,N/A,See Table 31-2B,18000,120,15,10%(q),20,28 ft. 2 St.(f),N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+CCN,Community R-4-N Commercial,Same as R-4-N,N/A,See Table 31-2B,18000,120,15,"10% (q)(r)
+",20(r),38 ft.(f) 3 St.,N/A,150(p),N/A,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+CHW,Regional Highway Commercial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+IL,Light Industrial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+IM,Medium Industrial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+IG,General Industrial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+IP,Port-related Industrial,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+I,Institutional,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+P,Park,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+PR,Public Right-of-Way,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+PD,Planned Development,See Specifics,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+(H),Horse Overlay,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+(HR),High-Rise Overlay,,NA,NA,20000,135,20,20% * height; not > 15% width,NA,NA,NA,NA,NA,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+(HL),Height-Limit Overlay,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1 space per unit 0 bedrooms, <450 sqft; 1.5 spaces per unit 1+  habitable rooms or 0 bedrooms and > 451 sqft; 2 spaces per unit 2 + habitable rooms; 1 guest space per 4 units",TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+SPD-2,Southeast Area Specific Plan SP-2),,,,,,,,,,,,,,,,,,,
+PD-2,Belmont Pier ,,,,,,,,,,,,,,,,,,,
+PD-3,Reserved,,,,,,,,,,,,,,,,,,,
+PD-4,Long Beach Marina ,,,,,,,,,,,,,,,,,,,
+PD-5,Ocean Boulevard ,,,,,,,,,,,,,,,,,,,
+PD-6,Downtown Shoreline,,,,,,,,,,,,,,,,,,,
+PD-7,Long Beach Business Center ,,,,,,,,,,,,,,,,,,,
+PD-8,Reserved,,,,,,,,,,,,,,,,,,,
+PD-9,Long Beach Airport Business Park,,,,,,,,,,,,,,,,,,,
+PD-10,Willmore City ,,,,,,,,,,,,,,,,,,,
+PD-11,Rancho Estates ,,,,,,,,,,,,,,,,,,,
+PD-12,Long Beach Airport Terminal ,,,,,,,,,,,,,,,,,,,
+PD-13,Atlantic Aviation Center ,,,,,,,,,,,,,,,,,,,
+PD-14,Reserved,,,,,,,,,,,,,,,,,,,
+PD-15,Redondo Avenue ,,,,,,,,,,,,,,,,,,,
+PD-16,Reserved,,,,,,,,,,,,,,,,,,,
+PD-17,Alamitos Land ,,,,,,,,,,,,,,,,,,,
+PD-18,Kilroy Airport Center ,,,,,,,,,,,,,,,,,,,
+PD-19,Douglas Aircraft ,,,,,,,,,,,,,,,,,,,
+PD-20,All Souls ,,,,,,,,,,,,,,,,,,,
+PD-21,Queensway Bay ,,,,,,,,,,,,,,,,,,,
+PD-22,Pacific Railway ,,,,,,,,,,,,,,,,,,,
+PD-23,Douglas Center ,,,,,,,,,,,,,,,,,,,
+PD-24,Reserved,,,,,,,,,,,,,,,,,,,
+PD-25,Atlantic Avenue ,,,,,,,,,,,,,,,,,,,
+PD-26,West Long Beach Business Park ,,,,,,,,,,,,,,,,,,,
+PD-27,Willow Street Center ,,,,,,,,,,,,,,,,,,,
+PD-28,Pacific Theaters ,,,,,,,,,,,,,,,,,,,
+SP-1,Midtown Specific Plan (SP-1),,,,,,,,,,,,,,,,,,,
+PD-30,Downtown Long Beach,,,,,,,,,,,,,,,,,,,
+PD-31,California State University and Technology Center/Villages at Cabrillo Long Beach Vets,,,,,,,,,,,,,,,,,,,
+PD-32,Douglas Park ,,,,,,,,,,,,,,,,,,,
